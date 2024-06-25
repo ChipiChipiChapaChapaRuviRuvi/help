@@ -1,0 +1,203 @@
+//task 1
+//using System;
+//class HelloWorld {
+  //static void Main() {
+    //Console.WriteLine("Настя");
+  //}
+//}
+
+
+//task 2
+//using System;
+//class HelloWorld {
+  //static void Main() {
+    //int numOne = 4;
+    //int numTwo = 10;
+    //int sum = numOne + numTwo;
+    //Console.WriteLine(sum);
+  //}
+//}
+
+
+//task 3
+// using System;
+// class HelloWorld {
+//     static void Main() {
+//         Console.Write("Введите число: ");
+//         int number = Convert.ToInt32(Console.ReadLine());
+//         Console.WriteLine($"{number} - Вот какое число вы ввели");
+//     }
+// }
+
+
+//task 4
+// using System;
+// class HelloWorld {
+//     static void Main() {
+//         Console.Write("Введите расстояние в метрах: ");
+//         int distance = Convert.ToInt32(Console.ReadLine());
+//         int result = distance * 100;
+//         Console.WriteLine($"Расстояние в сантиметрах {result}");
+//     }
+// }
+
+
+//task 5
+// using System;
+// class HelloWorld {
+//     static void Main() {
+//         Console.Write("Введите радиус окружности: ");
+//         int radius = Convert.ToInt32(Console.ReadLine());
+//         int diameter = radius * 2;
+//         Console.WriteLine($"Диаметр равен: {diameter}");
+//     }
+// }
+
+
+//task 6
+// using System;
+// class HelloWorld {
+//     static void Main() {
+//         Console.Write("Введите свое имя: ");
+//         string name = Console.ReadLine();
+//         Console.WriteLine($"Здравствуй, {name}");
+//     }
+// }
+
+
+//task 7
+// using System;
+// class HelloWorld {
+//     static void Main() {
+//         int numOne = 13;
+//         int numTwo = 1;
+        
+//         if (numOne > numTwo) {
+//             Console.WriteLine($"Наибольшее значение переменной равно: {numOne}");
+//         }
+//         else {
+//             Console.WriteLine($"Наибольшее значение переменной равно: {numTwo}");
+//         }
+//     }
+// }
+
+
+//task 8 
+// using System;
+// class HelloWorld {
+//     static void Main() {
+//         Console.Write("Введите свой возраст: ");
+//         int age = Convert.ToInt32(Console.ReadLine());
+        
+//         if (age >= 18) {
+//             Console.WriteLine($"Ты уже большой");
+//         }
+//         else {
+//             Console.WriteLine($"Ты еще маленький");
+//         }
+//     }
+// }
+
+
+//task 9
+// using System;
+// class HelloWorld {
+//     static void Main() {
+//         Console.Write("Введите число a: ");
+//         int a = Convert.ToInt32(Console.ReadLine());
+//         Console.Write("Введите число b: ");
+//         int b = Convert.ToInt32(Console.ReadLine());
+        
+//         if (b % a == 0) {
+//             Console.WriteLine($"Число {a} является делителем числа {b}");
+//         }
+//         else {
+//             Console.WriteLine($"Число {a} не является делителем числа {b}");
+//         }
+//     }
+// }
+
+
+// //task 10
+// using System;
+// class HelloWorld {
+//     static void Main() {
+//         Console.Write("Введите число: ");
+//         int number = Convert.ToInt32(Console.ReadLine());
+        
+//         while (number != 0) {
+//             Console.WriteLine($"{number} - Вот что вы ввели");
+//             Console.Write("Введите число: ");
+//             number = Convert.ToInt32(Console.ReadLine());
+//             if(number == 0) {
+//                 Console.WriteLine($"{number} - Вот что вы ввели");
+//                 break;
+//             }
+//         }
+//     }
+// }
+
+
+// //task 11
+// using System;
+// class HelloWorld {
+//     static void Main() {
+//         Console.Write("Введите число: ");
+//         int number = Convert.ToInt32(Console.ReadLine());
+//         int numberResult = number;
+        
+//         for (int i = 1; i < 11; ++i) {
+//             numberResult *= i;
+//             Console.WriteLine($"{number} * {i} = {numberResult}");
+//             numberResult = number;
+//         }
+//     }
+// }
+
+
+//task 12
+// using System;
+// class HelloWorld {
+//     static void Main() {
+//         int sum = 0;
+        
+//         for (int i = 100; i < 501; ++i) {
+//             sum += i;
+//         }
+//         Console.WriteLine($"Сумма чисел от 100 до 500 равна {sum}");
+//     }
+// }
+
+
+//task 13
+// using System;
+// class HelloWorld {
+//     static void Main() {
+//         int sum = 0;
+//         Console.Write("Введите число a: ");
+//         int a = Convert.ToInt32(Console.ReadLine());
+        
+//         for (int i = a; i < 501; ++i) {
+//             sum += i;
+//         }
+//         Console.WriteLine($"Сумма чисел от {a} до 500 равна {sum}");
+//     }
+// }
+
+
+// //task 14
+// using System;
+// class HelloWorld {
+//     static void Main() {
+//         int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+//         int numMin = array[0];
+        
+//         for (int i = 0; i < array.Length; ++i) {
+//             if (numMin > array[i]) {
+//                 numMin = array[i];
+//             }
+//         }
+        
+//         Console.WriteLine($"Минимальный элемент массива - {numMin}");
+//     }
+// }
